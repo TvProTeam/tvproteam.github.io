@@ -1,0 +1,16 @@
+<window>
+	<controls>
+		<control type="image">
+			<posx>0</posx>
+			<posy>0</posy>
+			<width>1920</width>
+			<height>1080</height>
+			<texture>bg_screen.jpg</texture>
+		</control>
+	</controls>
+</window>
+
+#########################################################
+#         PARTE DE ESTE CÓDIGO FUE TOMADO DE CHIKIRY    #
+#                A QUIEN DAMOS LAS GRACIAS              #
+#########################################################
