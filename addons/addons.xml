@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.latinokodiultimate" name="[COLOR blue]TvProTeam Wizard[/COLOR]" version="0.0.1" provider-name="[COLOR blue]TvProTeam[/COLOR]">
+<addon id="plugin.program.hackerwizard" name="[COLOR blue]TvProTeam Wizard[/COLOR]" version="0.0.1" provider-name="[COLOR blue]TvProTeam[/COLOR]">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
         <import addon="script.module.requests"/>
@@ -27,3 +27,4 @@
     </extension>
 </addon>
 </addons>
+
