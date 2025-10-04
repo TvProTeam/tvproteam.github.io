@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.TvProTeam" name="Repositorio TvProTeam" version="1.0.0" provider-name="[COLOR blue]>>>TvProTeam<<<[/COLOR]">
-    <extension point="xbmc.addon.repository" name="Repositorio TvProTeam">
-        <dir minversion="18.9.0">
-            <info compressed="false">https://github.com/TvProTeam/TvPro/addons/addons.xml</info>
-            <checksum>https://github.com/TvProTeam/TvPro/addons.xml.md5</checksum>
-            <datadir zip="true">https://github.com/TvProTeam/TvPro/addons/</datadir>
-        </dir>
+<addon id="plugin.program.latinokodiultimate" name="[COLOR red]LKU Wizard[/COLOR]" version="0.0.1" provider-name="[COLOR red]LKU Wizard[/COLOR]">
+    <requires>
+        <import addon="xbmc.python" version="3.0.1"/>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.six"/>
+	</requires>
+
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
     </extension>
+
+    <extension point="xbmc.service" library="startup.py" start="startup" />
+
     <extension point="xbmc.addon.metadata">
-        <summary>Repositorio TvProTeam</summary>
-        <description>Repositorio TvProTeam</description>
-        <platform>all</platform>
-    <assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.jpg</fanart>
-    </assets>
+		<summary lang="en">LKU Wizard</summary>
+		<description lang="en">Ingresa a nuestro grupo de Telegram @latinokodi</description>
+			<platform>all</platform>
+			<reuselanguageinvoker>false</reuselanguageinvoker>
+			<source></source>
+			<news></news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.png</fanart>
+        </assets>
     </extension>
 </addon>
 </addons>
