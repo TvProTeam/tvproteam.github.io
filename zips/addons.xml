@@ -15,7 +15,7 @@
 
     <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">[COLOR blue]TvProTeam Wizard[/COLOR]</summary>
-        <description lang="en_GB">[COLOR blue]TvProTeam Wizard para instalar, actualizar y realizar mantenimiento al build TvPRO[/COLOR]</description>
+        <description lang="en_GB">[COLOR blue]TvProTeam Wizard para instalar, actualizar y realizar mantenimiento al build TvProTeam[/COLOR]</description>
         <disclaimer lang="en_GB">The author of this addon does not host any content and has no affiliation with the content providers</disclaimer>
         <platform>all</platform>
         <reuselanguageinvoker>false</reuselanguageinvoker>
@@ -52,4 +52,3 @@
     </extension>
 </addon>
 </addons>
-
