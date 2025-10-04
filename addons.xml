@@ -1,10 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.TvProTeam" name="Repositorio LKU" version="1.0.0" provider-name="[COLOR BLUE]>>>TvProTeam<<<[/COLOR]">
+<addon id="plugin.program.hackerwizard" name="HackerWizard Team" version="1.1" provider-name="Hacker by Cristain">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="startup.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Hacker WIzard Team</summary>
+    <description lang="en">Wizard para HackerTeam by Cristian</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.TvProTeam" name="Repositorio TvProTeam" version="1.0.0" provider-name="[COLOR blue]>>>TvProTeam<<<[/COLOR]">
     <extension point="xbmc.addon.repository" name="Repositorio TvProTeam">
         <dir minversion="18.9.0">
-            <info compressed="false">https://tvproteam.github.io/addons/addons.xml</info>
-            <checksum>https://tvproteam.github.io/addons/addons.xml.md5</checksum>
-            <datadir zip="true">https://tvproteam.github.io/addons/</datadir>
+            <info compressed="false">https://github.com/TvProTeam/TvPro/addons/addons.xml</info>
+            <checksum>https://github.com/TvProTeam/TvPro/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/TvProTeam/TvPro/addons/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
@@ -17,7 +34,4 @@
     </assets>
     </extension>
 </addon>
-
-
-
-
+</addons>
