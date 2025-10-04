@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.tvprowizard" name="[COLOR blue]TvProTeam Wizard[/COLOR]" version="3.0.2" provider-name="[COLOR blue]TvProTeam Wizard[/COLOR]">
+<addon id="plugin.program.tvprowizard" name="[COLOR blue]TvProTeam Wizard[/COLOR]" version="3.0.1" provider-name="[COLOR blue]TvProTeam Wizard[/COLOR]">
     <requires>
         <import addon="xbmc.python" version="3.0.1"/>
         <import addon="script.module.requests"/>
