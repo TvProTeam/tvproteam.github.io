@@ -1,6 +1,6 @@
 name="TvProTeam-Dark"
-version="1.3"
-url="https://.zip"
+version="3.1"
+url="https://bzfit.es/kodi/build/TvProTeam3.1.zip"
 minor="http://"
 gui="http://"
 kodi="21.2"
