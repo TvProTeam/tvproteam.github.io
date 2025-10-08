@@ -34,7 +34,7 @@ class BuildMenu:
 
     def _list_all(self, match, kodiv=None):
         from resources.libs import test
-        custom_icon = "https://latinokodi.lat/recursos/logo.png"
+        custom_icon = "https://tvproteam.github.io/repo/wizard/logo.png"
 
         for name, version, url, gui, kodi, theme, icon, fanart, adult, description in match:
             if not CONFIG.SHOWADULT == 'true' and adult.lower() == 'yes':
@@ -108,7 +108,7 @@ class BuildMenu:
     def view_build(self, name):
     
         response = tools.open_url(CONFIG.BUILDFILE)
-        custom_icon = "https://latinokodi.lat/recursos/logo.png"
+        custom_icon = "https://tvproteam.github.io/repo/wizard/logo.png"
         
         if response:
             link = tools.clean_text(response.text)
