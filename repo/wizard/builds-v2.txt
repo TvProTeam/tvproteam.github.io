@@ -1,0 +1,19 @@
+name="[COLOR red]>>>TvProTeam-Dark<<<[/COLOR][/COLOR]"
+version="Omega 21.2"
+url="https://bzfit.es/kodi/build/TvProTeam3.3.zip"
+minor="http://"
+gui="http://"
+kodi="21.1"
+theme="http://"
+icon="https://tvproteam.github.io/repo/wizard/logo.png"
+fanart="https://tvproteam.github.io/repo/wizard/fanart.jpg"
+preview="http://"
+adult="no"
+info="http://"
+description="TvProTeam-Dark"
+
+
+
+
+
+description="END OF LIST"
