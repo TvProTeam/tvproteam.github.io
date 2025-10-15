@@ -1,4 +1,4 @@
-name="[COLOR red]>>>TvProTeam-Dark<<<[/COLOR][/COLOR]"
+name="[COLOR red]>>>TvProTeam-Dark<<<[/COLOR]"
 version="Omega 21.2"
 url="https://bzfit.es/kodi/build/TvProTeam3.3.zip"
 minor="http://"
