@@ -12,7 +12,7 @@ adult="no"
 info="http://"
 description="Wizard Liviano Para KODI Omega en Android."
 
-name="[COLOR blue]>>>TvProTeam-ULTRA<<<[/COLOR]"
+name=">>>TvProTeam-ULTRA<<<"
 version="Omega 21.2"
 url="https://bzfit.es/kodi/build/TvProTeam-ULTRA.zip"
 minor="http://"
